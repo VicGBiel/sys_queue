@@ -87,7 +87,6 @@ void vLedsTask(void *params){
         } else {
             gpio_put(led_pin_red, false); // Desliga o vermelho
         }
-        
     }
 }
 
